@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Duplicate {
     public static void main(String[] args) {
-        int[] ques = {3,3};
+        int[] ques = {3, 3};
         System.out.println(Duplicate.containsDuplicate(ques));
     }
 
