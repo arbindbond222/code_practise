@@ -9,6 +9,12 @@ public class Anagram {
         isAnagramUsingSort("as", "sa");
     }
 
+    /**
+     *
+     * @param s
+     * @param t
+     * @return boolean
+     */
     public static boolean isAnagramUsingSort(String s, String t) {
         if (!Objects.equals(s.length(), t.length()))
             return false;
@@ -19,6 +25,12 @@ public class Anagram {
         return Arrays.equals(c, u);
     }
 
+    /**
+     *
+     * @param s
+     * @param t
+     * @return boolean
+     */
     public static boolean isAnagramUsingMap(String s, String t) {
         if (!Objects.equals(s.length(), t.length()))
             return false;

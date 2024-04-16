@@ -8,6 +8,11 @@ public class Duplicate {
         System.out.println(Duplicate.containsDuplicate(ques));
     }
 
+    /**
+     *
+     * @param nums
+     * @return boolean
+     */
     public static boolean containsDuplicate(int[] nums) {
         HashMap<Integer, Integer> ans = new HashMap<>();
         for (int num : nums) {
