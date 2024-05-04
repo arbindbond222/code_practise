@@ -39,7 +39,7 @@ public class GroupAnagram {
         }
 
         List<List<String>> ans = new ArrayList<>();
-        for(ArrayList<String> arrayList : hashMapArrayListHashMap.values()){
+        for (ArrayList<String> arrayList : hashMapArrayListHashMap.values()) {
             ans.add(arrayList);
         }
 
@@ -158,18 +158,18 @@ public class GroupAnagram {
  * Hashmap Thoery of collision
  * In the context of HashMaps, a collision occurs when two or more distinct keys map to the same bucket or index in the underlying array structure of the HashMap.
  * This can happen due to the way HashMap resolves hash codes into array indices using a process called hashing.
- *
+ * <p>
  * When you insert a key-value pair into a HashMap, the HashMap calculates the hash code of the key and then uses this hash code to determine the index where the key-value pair should be stored in the underlying array.
  * However, since the range of possible hash codes is much larger than the size of the array, multiple keys may end up with the same hash code, resulting in a collision.
- *
+ * <p>
  * HashMap handles collisions by using a technique called chaining.
  * In a chaining collision resolution strategy, each bucket in the array can hold multiple key-value pairs.
  * When a collision occurs, the new key-value pair is added to the bucket corresponding to the calculated index, forming a linked list of entries in that bucket.
- *
+ * <p>
  * When you need to retrieve a value associated with a key, the HashMap calculates the hash code of the key and uses it to determine the bucket.
  * Then, it searches the linked list in that bucket to find the entry with the matching key.
  * This process ensures that even if multiple keys collide, the correct value can still be retrieved.
- *
+ * <p>
  * While collisions are a natural consequence of hashing, excessive collisions can degrade the performance of the HashMap,
  * as it increases the length of the linked lists and slows down retrieval operations.
  * To mitigate collisions, it's important to choose a good hashing algorithm for keys and ensure that the HashMap is appropriately sized to distribute entries evenly across buckets.
