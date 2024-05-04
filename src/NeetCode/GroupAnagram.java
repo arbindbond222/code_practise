@@ -12,6 +12,13 @@ public class GroupAnagram {
         groupAnagramsWithKeyAsHashMap(strs);
     }
 
+    /**
+     * This method groups anagrams in a given string array using HashMap.
+     * It creates a HashMap where the key is a frequency map of characters in a string and the value is a list of strings that have the same frequency map.
+     *
+     * @param strs the input string array
+     * @return a list of lists of strings, where each inner list contains anagrams of each other
+     */
     private static List<List<String>> groupAnagramsWithKeyAsHashMap(String[] strs) {
         if (Objects.isNull(strs) || strs.length == 0)
             return new ArrayList<>();
@@ -48,8 +55,11 @@ public class GroupAnagram {
     }
 
     /**
-     * @param strs
-     * @return
+     * This method groups anagrams in a given string array using HashMap.
+     * It creates a HashMap where the key is an array of sorted characters in a string and the value is a list of strings that have the same sorted characters array.
+     *
+     * @param strs the input string array
+     * @return a list of lists of strings, where each inner list contains anagrams of each other
      */
     public static List<List<String>> groupAnagramsWithSortingWithProblem(String[] strs) {
         if (Objects.isNull(strs) || strs.length == 0)
@@ -79,8 +89,12 @@ public class GroupAnagram {
     }
 
     /**
-     * @param strs
-     * @return
+     * This method groups anagrams in a given string array using HashMap.
+     * It creates a HashMap where the key is a frequency map of characters in a string and the value is a list of strings that have the same frequency map.
+     * The strings are sorted before being added to the HashMap.
+     *
+     * @param strs the input string array
+     * @return a list of lists of strings, where each inner list contains anagrams of each other
      */
     public static List<List<String>> groupAnagramsWithSorting(String[] strs) {
         if (Objects.isNull(strs) || strs.length == 0)
@@ -109,9 +123,12 @@ public class GroupAnagram {
 
     /**
      * We will be using frequency map
+     * This method groups anagrams in a given string array using HashMap.
+     * It creates a HashMap where the key is a frequency map of characters in a string and the value is a list of strings that have the same frequency map.
+     * The strings are not sorted before being added to the HashMap.
      *
-     * @param strs
-     * @return
+     * @param strs the input string array
+     * @return a list of lists of strings, where each inner list contains anagrams of each other
      */
     public static List<List<String>> groupAnagramsWithoutSorting(String[] strs) {
         if (Objects.isNull(strs) || strs.length == 0)
@@ -140,18 +157,19 @@ public class GroupAnagram {
     /*
     Using Java 8 stream
     * This will not pass all test case due to not maintaining order
+     * This method returns a frequency map of characters in a given string.
+     * It creates a map where the key is a character in the string and the value is the frequency of that character in the string.
+     *
+     * @param s the input string
+     * @return a frequency map of characters in the string
      */
     private static String frequencyMapString(String s) {
         Map<Character, Long> frequencyMap = s.chars().mapToObj(characterStream -> (char) characterStream)
                 .collect(Collectors.groupingBy(input -> input, Collectors.counting()));
         StringBuilder stringBuilder = new StringBuilder();
-        frequencyMap.forEach((character, frequency) -> {
-            stringBuilder.append(character).append(frequency);
-        });
-
+        frequencyMap.forEach((character, frequency) -> stringBuilder.append(character).append(frequency));
         return stringBuilder.toString();
     }
-
 }
 
 /**
