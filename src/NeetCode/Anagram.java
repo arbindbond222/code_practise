@@ -4,7 +4,7 @@ import java.util.Objects;
 
 /**
  * Anagram class contains methods to check if two strings are anagrams of each other.
- *
+ * For this we need to have knowledge of sliding window problem
  * @author Tabnine
  */
 public class Anagram {

@@ -12,7 +12,11 @@ public class AnagramInString {
         findAnagrams("cbaebabacd","abc");
     }
     public static List<Integer> findAnagrams(String s, String p) {
-        String fMap = evaluateFrequencymap(p);
+        String pMap = evaluateFrequencymap(p);
+        String smap = evaluateFrequencymap(s);
+
+        Integer pLength = p.length();
+
 
 
 
