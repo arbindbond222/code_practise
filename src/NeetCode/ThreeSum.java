@@ -9,11 +9,11 @@ public class ThreeSum {
         int[] arr = {-1, 0, 1, 2, -1, -4};
         int target = 4;
         findAllTripletsResultingZero(arr);
-        System.out.println(findSumClosesttoTarget(arr, target));
+        System.out.println(findSumClosestToTarget(arr, target));
 
     }
 
-    private static int findSumClosesttoTarget(int[] arr, int target) {
+    private static int findSumClosestToTarget(int[] arr, int target) {
         // we will use two pointer approach that we used in two sum and enhance our logic
         // so that we can fix one element of the array and run two sum in other array
         if (arr == null || arr.length < 3) {
@@ -21,7 +21,7 @@ public class ThreeSum {
         }
         //because we want to return the element and not indices so we will sort
         Arrays.sort(arr);
-        int resultSum = arr[0] + arr[1] + arr[3];
+        int resultSum = arr[0] + arr[1] + arr[2];
         int minDifference = Integer.MAX_VALUE;
         for (int i = 0; i < arr.length - 2; i++) {
             int left = i + 1;
@@ -35,8 +35,6 @@ public class ThreeSum {
                 } else {
                     right--;
                 }
-
-
                 // now we need to check what is the difference
                 int difference = Math.abs(sum - target);
                 if (difference < minDifference) {
