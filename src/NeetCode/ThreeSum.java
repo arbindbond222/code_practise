@@ -28,8 +28,7 @@ public class ThreeSum {
             int right = arr.length - 1;
             while (left < right) {
                 int sum = arr[i] + arr[left] + arr[right];
-                if (sum==target)
-                    return sum;
+                if (sum == target) return sum;
                 else if (sum < target) {
                     left++;
                 } else {
