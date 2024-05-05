@@ -7,7 +7,45 @@ public class ThreeSum {
     //find all triplets in an array so that the sum = 0
     public static void main(String[] args) {
         int[] arr = {-1, 0, 1, 2, -1, -4};
+        int target = 4;
         findAllTripletsResultingZero(arr);
+        System.out.println(findSumClosesttoTarget(arr, target));
+
+    }
+
+    private static int findSumClosesttoTarget(int[] arr, int target) {
+        // we will use two pointer approach that we used in two sum and enhance our logic
+        // so that we can fix one element of the array and run two sum in other array
+        if (arr == null || arr.length < 3) {
+            return 0;
+        }
+        //because we want to return the element and not indices so we will sort
+        Arrays.sort(arr);
+        int resultSum = arr[0] + arr[1] + arr[3];
+        int minDifference = Integer.MAX_VALUE;
+        for (int i = 0; i < arr.length - 2; i++) {
+            int left = i + 1;
+            int right = arr.length - 1;
+            while (left < right) {
+                int sum = arr[i] + arr[left] + arr[right];
+                if (sum==target)
+                    return sum;
+                else if (sum < target) {
+                    left++;
+                } else {
+                    right--;
+                }
+
+
+                // now we need to check what is the difference
+                int difference = Math.abs(sum - target);
+                if (difference < minDifference) {
+                    minDifference = difference;
+                    resultSum = sum;
+                }
+            }
+        }
+        return resultSum;
     }
 
     /**
@@ -33,18 +71,18 @@ public class ThreeSum {
             //start two pointer approach
             int left = i + 1;
             int right = arr.length - 1;
-             while (left < right) {
-                 int sum = arr[i] + arr[left] + arr[right];
-                 if (sum == 0) {
-                    result.add(Arrays.asList(arr[i],arr[left],arr[right]));
-                     left++;
-                     right--;
-                 } else if (sum < 0) {
-                     left++;
-                 } else {
-                     right--;
-                 }
-             }
+            while (left < right) {
+                int sum = arr[i] + arr[left] + arr[right];
+                if (sum == 0) {
+                    result.add(Arrays.asList(arr[i], arr[left], arr[right]));
+                    left++;
+                    right--;
+                } else if (sum < 0) {
+                    left++;
+                } else {
+                    right--;
+                }
+            }
         }
         return new ArrayList<>(result);
     }
