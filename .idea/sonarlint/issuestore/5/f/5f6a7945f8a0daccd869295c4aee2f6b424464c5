@@ -1,0 +1,10 @@
+
+œ
+java:S2293P"YReplace the type specification in this constructor call with the diamond operator ("<>").(×…›ˆ8ÒÚÏŸô1J$af0f973c-8004-49cb-867a-4e05d5463bdc
+œ
+java:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(­Á¬Ç8áÚÏŸô1J$9a4f0ab1-7c06-4273-afba-2b3758548a67
+~	java:S125""<This block of commented-out lines of code should be removed.(µ±ë³8åÚÏŸô1J$e4913691-4b2d-4553-8680-24dbb6bcdde6
+r	java:S106?"+Replace this use of System.out by a logger.(«Í‹åþÿÿÿÿ8îÚÏŸô1J$197ea425-16c8-4344-8809-114878a0bd70
+r	java:S106U"+Replace this use of System.out by a logger.(Ì…†ÿÿÿÿÿ8éðÛŸô1J$cd6dd313-ae8c-48ad-8fdf-fb7e99257c7c
+
+java:S1144O"<Remove this unused private "findSumPairUsingHashMap" method.(Ü¬Ÿ8ðÚÏŸô1J$cfb9ead6-cbe4-42f6-b792-6869955766e4

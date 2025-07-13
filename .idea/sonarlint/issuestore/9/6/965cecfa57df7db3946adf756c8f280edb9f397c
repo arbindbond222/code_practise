@@ -1,0 +1,16 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—áÿ´8ñ­Ú™ô1J$56400fea-2ba7-4f87-9925-874abbb4a219
+~
+java:S1854";Remove this useless assignment to local variable "pLength".(úŠ©Œ8û­Ú™ô1J$1d76098d-9f9a-48cc-94a3-1bda7e7dddeb
+€
+java:S1854"8Remove this useless assignment to local variable "smap".(•Äıšÿÿÿÿÿ8û­Ú™ô1J$2018eaa8-0f53-4ced-9373-ea1bdde334f6
+€
+java:S1854"8Remove this useless assignment to local variable "pMap".(½½Î¾ıÿÿÿÿ8û­Ú™ô1J$a0efdc87-50ec-4183-9ba0-0b603611d6b8
+q
+java:S1481")Remove this unused "pMap" local variable.(½½Î¾ıÿÿÿÿ8ş­Ú™ô1J$e9d8d864-62fe-4663-8208-2345ffeb50f8
+q
+java:S1481")Remove this unused "smap" local variable.(•Äıšÿÿÿÿÿ8ÿ­Ú™ô1J$a73186bf-627e-4204-b87e-6fee997ce7d9
+o
+java:S1481",Remove this unused "pLength" local variable.(úŠ©Œ8€®Ú™ô1J$a70b5a39-1234-4df5-8aae-b23db9a33b72
+n
+java:S1168"+Return an empty collection instead of null.(¥¹ï8®Ú™ô1J$a4d40ca3-207c-42cf-8a63-eed95b046633

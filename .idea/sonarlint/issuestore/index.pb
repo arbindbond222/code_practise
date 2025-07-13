@@ -1,0 +1,99 @@
+
+A
+Code_practise.iml,5\a\5ad0e29dba3655bf69da0b718c83bca388e2248a
+F
+src/com/arav/Main.java,7\d\7d68ce6e5fb2babefe1542730326f4e4302ea983
+I
+src/NeetCode/Anagram.java,3\2\3264a9170eeaf12c66d318d6d1a52f396ab1b1c8
+K
+src/NeetCode/Duplicate.java,7\f\7fbf8a36e0b14d280afe76b44f448466a72e5f01
+N
+src/NeetCode/GroupAnagram.java,1\d\1d11301927743ef37405c64e2cd5cc19449cbdd6
+Q
+!src/NeetCode/AnagramInString.java,9\6\965cecfa57df7db3946adf756c8f280edb9f397c
+H
+src/NeetCode/TwoSum.java,5\f\5f6a7945f8a0daccd869295c4aee2f6b424464c5
+J
+src/NeetCode/ThreeSum.java,4\5\45d951eaf4c01e680a91b4ddf2dd02c156754840
+Q
+!src/tuf/arraysbasic/ArraySum.java,b\4\b41a50ee2bffe0661103f4584046b4cbfd630bf0
+Q
+!src/tuf/arraysbasic/OddCount.java,d\c\dc7749ef24909d5a60f85523787255597404f172
+W
+'src/tuf/arraysbasic/ReverseAnArray.java,f\e\fef4f8056cc96b722eb5b0de5d1a0139cbc5b295
+Y
+)src/tuf/arraysbasic/CheckArraySorted.java,f\7\f791a69c7c4542fd2f36e3648058ccdb80c73ea0
+O
+src/tuf/patterns/Pattern19.java,d\e\de3f789613757b535ddda2ece4b92b8f5b9a8e4c
+O
+src/tuf/patterns/Pattern20.java,7\2\72136143ead66ff7f75ef8a9964596f81fc85c6c
+O
+src/tuf/patterns/Pattern21.java,4\6\466f4f181f43ccab66277db2c31837881c29b085
+O
+src/tuf/patterns/Pattern22.java,c\c\cc3aea1cb1041a5bd8cde15282aca56d1e579dc8
+Y
+)src/tuf/patterns/Pattern22_Base_Idea.java,0\5\053dd8cd004da919b19ecab9c434b0982e41b26a
+N
+src/tuf/patterns/Pattern1.java,c\8\c86e574eb48e259d58706a9049cbb648e4365d2c
+N
+src/tuf/patterns/Pattern2.java,1\6\16e12da852bb13e0f92b4580c6932e0ecdc6ee36
+N
+src/tuf/patterns/Pattern3.java,2\d\2dc3648e485f7bae7523378f8dfd50492c716def
+N
+src/tuf/patterns/Pattern4.java,0\b\0bd3f8392c3200b259d2743841ac161a505e2b58
+N
+src/tuf/patterns/Pattern5.java,6\3\63153bb477027259b5455a622715cfd326873f13
+N
+src/tuf/patterns/Pattern6.java,a\f\afe9cd4bf970b462a428587978114bf6eb76159d
+N
+src/tuf/patterns/Pattern7.java,e\4\e4c79e4f7a12868ed56084a4a6e2f117fe50b51d
+N
+src/tuf/patterns/Pattern8.java,d\9\d9e738bc7123aedbefb76aaaebb02709a70cdcb2
+N
+src/tuf/patterns/Pattern9.java,3\7\376a3397d6311e9f60286b733455bc05c9776e36
+O
+src/tuf/patterns/Pattern10.java,e\e\eeb2158fb0831f00cb3f8cefa876303346a7d771
+O
+src/tuf/patterns/Pattern11.java,0\d\0d0905589591de835d749708f6e0c9a23103189b
+O
+src/tuf/patterns/Pattern12.java,8\5\85b62de980954a93d341ff4652e2df4e76ba7478
+O
+src/tuf/patterns/Pattern13.java,1\2\12be6644a6bc6e9670ec967f831039a8abb8ceed
+O
+src/tuf/patterns/Pattern14.java,5\7\57865b7011814caf7c7d56724dbc1558594c8f93
+O
+src/tuf/patterns/Pattern15.java,4\d\4d1fccb4d72f361cde69f8848808adb1802c3774
+O
+src/tuf/patterns/Pattern16.java,b\a\ba0107bdd5e660482271db1a91f3f812cd0250b3
+O
+src/tuf/patterns/Pattern17.java,3\9\398f0a058789b9b1352798d24bdddb7a949ef80c
+O
+src/tuf/patterns/Pattern18.java,1\6\16a5d1813af9c192f81f3c35a5e1e6bb0eb9f5e8
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+Å
+Q.idea/sonarlint/securityhotspotstore/4/5/45d951eaf4c01e680a91b4ddf2dd02c156754840,4\5\4528ae574275cca378be1a626c3fdd640ccf5a99
+Å
+Q.idea/sonarlint/securityhotspotstore/1/d/1d11301927743ef37405c64e2cd5cc19449cbdd6,e\e\eee740a1e9a8388a128d7892fb776e0957c46aa3
+Å
+Q.idea/sonarlint/securityhotspotstore/3/2/3264a9170eeaf12c66d318d6d1a52f396ab1b1c8,3\6\36ebfb19d1067ee67828bbe6ba488a3ac46ee9f7
+w
+G.idea/sonarlint/issuestore/7/d/7d68ce6e5fb2babefe1542730326f4e4302ea983,9\6\9691754a4a3ec1149366dc1504c61402b8913f90
+Å
+Q.idea/sonarlint/securityhotspotstore/5/a/5ad0e29dba3655bf69da0b718c83bca388e2248a,1\b\1b8f56e3998a4cbe7fb46d39727e42591de14409
+Å
+Q.idea/sonarlint/securityhotspotstore/5/f/5f6a7945f8a0daccd869295c4aee2f6b424464c5,7\0\702b2bfa6fa49f56fe0cf371e7e922c3846361f3
+Å
+Q.idea/sonarlint/securityhotspotstore/7/d/7d68ce6e5fb2babefe1542730326f4e4302ea983,f\3\f386204e1a35b201725dee360bf2a1a1b62ff08a
+Å
+Q.idea/sonarlint/securityhotspotstore/7/f/7fbf8a36e0b14d280afe76b44f448466a72e5f01,d\1\d1d6b8c2085802aac96b4c219a8fc4fe8eed34f8
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+w
+G.idea/sonarlint/issuestore/5/a/5ad0e29dba3655bf69da0b718c83bca388e2248a,7\4\74b07c96c44f9989f4d049caeb7c40fb37cdef39
+Å
+Q.idea/sonarlint/securityhotspotstore/9/6/965cecfa57df7db3946adf756c8f280edb9f397c,2\9\2998b674b0bb146eeb28f3079250e64b32c29cce
+Å
+Q.idea/sonarlint/securityhotspotstore/b/4/b41a50ee2bffe0661103f4584046b4cbfd630bf0,3\a\3aa6b2c197179ab99445853f0a9fe89a9a3ea5da
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
