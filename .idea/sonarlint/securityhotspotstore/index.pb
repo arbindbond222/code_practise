@@ -97,3 +97,15 @@ Q.idea/sonarlint/securityhotspotstore/9/6/965cecfa57df7db3946adf756c8f280edb9f39
 Q.idea/sonarlint/securityhotspotstore/b/4/b41a50ee2bffe0661103f4584046b4cbfd630bf0,3\a\3aa6b2c197179ab99445853f0a9fe89a9a3ea5da
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+R
+"src/tuf/matchbasic/CountDigit.java,d\8\d8127b640a5001eeb38b278025005a95f1c9963b
+W
+'src/tuf/matchbasic/CountOddInDigit.java,3\7\3788e95f32d5969e8369503990d600d15d9bd525
+U
+%src/tuf/matchbasic/ReverseNumber.java,0\e\0e341f0688c198c1d92f1756a808a3394970439b
+R
+"src/tuf/matchbasic/Palindrome.java,1\e\1e66fdc90055ef17330446c509ef808992fac774
+T
+$src/tuf/matchbasic/LargestDigit.java,d\5\d5c58025d88ab228cef340544af80ea8449960b1
+O
+src/tuf/matchbasic/Divisor.java,6\7\67a5ccbbf3785a5a6ab0bdc741b4df26e45d1f0a
