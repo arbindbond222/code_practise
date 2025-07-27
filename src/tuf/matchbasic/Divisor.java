@@ -1,8 +1,6 @@
 package tuf.matchbasic;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Divisor {
     public static void main(String[] args) {
